@@ -52,6 +52,7 @@ struct ToDoListView: View {
 
 struct ToDoListView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListView(userId: "qyQ3Odx317W2v0YVq4rQB8RqGx32")
+        // Insert Firebase API Key here to see changes in real time in preview.
+        ToDoListView(userId: "")
     }
 }
